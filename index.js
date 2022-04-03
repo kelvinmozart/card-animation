@@ -4,7 +4,7 @@ const container = document.querySelector(".container");
 //Items
 const title = document.querySelector(".title");
 const car = document.querySelector(".car img");
-const purchase = document.querySelector(".purschase");
+const purchase = document.querySelector(".purchase");
 const info = document.querySelector(".info h3");
 
 //Moving animation event
@@ -20,6 +20,8 @@ container.addEventListener("mouseenter", (e) => {
     //Popout
     title.style.transform = "translateZ(150px)";
     car.style.transform = "translateZ(200px) rotateZ(-10deg)";
+    info.style.transform = "translateZ(125px)";
+    purchase.style.transform = "translateZ(75px)";
 });
 
 //Animate Out
@@ -29,4 +31,6 @@ container.addEventListener("mouseleave", (e) => {
     //Popback
     title.style.transform = "translateZ(0px)";
     car.style.transform = "translateZ(0px) rotateZ(0deg)";
+    info.style.transform = "translateZ(0px)";
+    purchase.style.transform = "translateZ(0px)";
 });
