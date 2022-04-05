@@ -18,10 +18,10 @@ container.addEventListener("mousemove", (e) => {
 container.addEventListener("mouseenter", (e) => {
     card.style.transition = "none";
     //Popout
-    title.style.transform = "translateZ(150px)";
-    car.style.transform = "translateZ(200px) rotateZ(-10deg)";
-    info.style.transform = "translateZ(125px)";
-    purchase.style.transform = "translateZ(75px)";
+    title.style.transform = "translateZ(100px)";
+    car.style.transform = "translateZ(100px) rotateZ(-5deg)";
+    info.style.transform = "translateZ(100px)";
+    purchase.style.transform = "translateZ(50px)";
 });
 
 //Animate Out
