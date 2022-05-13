@@ -1,6 +1,6 @@
 # card-animation
 
-![Algorithm schema](./images/3d-card.gif)
+![](https://github.com/kelvinmozart/card-animation/blob/master/image/3d-card.gif)
 
 ## General info
 This project is a simple card with a 3D animation when the user hover the mouse on.
