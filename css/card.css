@@ -13,26 +13,27 @@ body{
 }
 
 .container{
-    width: 60%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     transform-style: preserve-3d;
-    perspective: 2500px;
+    perspective: 1500px;
 }
 
 .card{
     transform-style: preserve-3d;
-    min-height: 70vh;
-    width: 30rem;
-    border-radius: 30px;
-    padding: 0rem 3rem;
+    max-width: 320px;
+    min-height: auto;
+    width: 100%;
+    border-radius: 20px;
+    padding: 1.5rem;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 
                 0px 0px 50px rgba(0, 0, 0, 0.2);
 }
 
 .car{
-    min-height: 35vh;
+    min-height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,7 +41,7 @@ body{
 }
 
 .car img{
-    width: 20rem;
+    width: 14rem;
     z-index: 2;
     transition: all 0.75s ease-out;
 }
@@ -69,12 +70,12 @@ body{
 }
 
 .info h1{
-    font-size: 3rem;
+    font-size: 2rem;
     transition: all 0.75s ease-out;
 }
 
 .info h3{
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding: 1rem 0rem;
     color: #585858;
     font-weight: lighter;
@@ -89,11 +90,12 @@ body{
 
 .purchase button{
     width: 100%;
-    padding: 1rem 0rem;
+    padding: 0.8rem 0rem;
     background: #f54642;
     border: none;
     color: white;
     cursor: pointer;
     border-radius: 30px;
     font-weight: bolder;
+    font-size: 0.9rem;
 }
